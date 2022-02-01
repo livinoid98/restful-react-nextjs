@@ -1,0 +1,222 @@
+.sub_wrap{
+    width:1200px;
+    margin:0 auto;
+}
+
+.main_img{
+    width:100%;
+    height:700px;
+    background-image:url('/img/main_img.png');
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.life_style{
+    width:1200px;
+    height:1025px;
+    margin:0 auto;
+    position:relative;
+    img{
+        position:absolute;
+        &:nth-child(1){
+            top:70px;
+            left:20px;
+        }
+        &:nth-child(2){
+            top:170px;
+            left:40px;
+        }
+        &:nth-child(3){
+            top:196px;
+            left:793px;
+        }
+        &:nth-child(4){
+            top:585px;
+            left:468px;
+        }
+        &:nth-child(6){
+            top:428px;
+            left:802px;
+        }
+    }
+    ul{
+        width:227px;
+        position:absolute;
+        top:718px;
+        left:542px;
+        li{
+            float:left;
+            margin-left:5px;
+            font-weight:400;
+            font-size:12px;
+            color:#000000;
+            &::after{
+                content:"    |";
+            }
+        }
+    }
+}
+
+.gift_wrap{
+    width:100%;
+    height:472px;
+    .best_gift{
+        width:1200px;
+        height:212px;
+        margin:0 auto;
+        position:relative;
+        img{
+            position:absolute;
+            &:nth-child(1){
+                left:100px;
+            }
+            &:nth-child(3){
+                top:104px;
+                left:668px;
+            }
+            &:nth-child(5){
+                top:268px;
+                left:668px;
+            }
+        }
+        span{
+            position:absolute;
+            &:nth-child(2){
+                font-size:52px;
+                font-weight:500;
+                color:#d7b2f0;
+                top:28px;
+                left:664px;
+            }
+            &:nth-child(4){
+                width:306px;
+                font-size:18px;
+                font-weight:500;
+                color:#868686;
+                line-height:28px;
+                top:124px;
+                left:664px;
+            }
+        }
+        button{
+            width:140px;
+            height:35px;
+            background-color: transparent;
+            border-radius:10px;
+            border:1px solid #fff;
+            position:absolute;
+            top:394px;
+            &:nth-child(6){
+                left:664px;
+            }
+            &:nth-child(7){
+                left:826px;
+            }
+        }
+    }
+    .powdery_musk{
+        width:100%;
+        height:260px;
+        background-color:#bf91de;
+        position:relative;
+        z-index:-1;
+    }
+}
+
+.brand_story{
+    width:1200px;
+    height:748px;
+    margin:0 auto;
+    position:relative;
+    .back_pink{
+        width:100%;
+        height:377px;
+        background-color:#ffdfc0;
+        margin-left:-50%;
+    }
+    .main_pink{
+        width:850px;
+        height:377px;
+        background-color:#ffdfc0;
+        position:absolute;
+        top:0px;
+        left:0px;
+    }
+    img{
+        position:absolute;
+        top:0px;
+        left:0px;
+        &:nth-child(3){
+            top:0px;
+            left:0px;
+        }
+        &:nth-child(4){
+            top:68px;
+            left:306px;
+        }
+        &:nth-child(5){
+            top:34px;
+            left:690px;
+        }
+        &:nth-child(6){
+            top:232px;
+            left:369px;
+        }
+        &:nth-child(7){
+            top:129px;
+            left:797px;
+        }
+        &:nth-child(8){
+            top:260px;
+            left:931px;
+        }
+        &:nth-child(9){
+            top:570px;
+            left:67px;
+        }
+        &:nth-child(10){
+            top:663px;
+            left:68px;
+        }
+        &:nth-child(11){
+            top:663px;
+            left:258px;
+        }
+        &:nth-child(12){
+            top:377px;
+            left:563px;
+        }
+    }
+}
+
+.instagram{
+    width:1200px;
+    height:459px;
+    margin:0 auto;
+    margin-top:120px;
+    margin-bottom:156px;
+    position:relative;
+    img{
+        position:absolute;
+        &:nth-child(1){
+            top:0px;
+            left:430px;
+        }
+        &:nth-child(2){
+            top:103px;
+            left:7px;
+        }
+        &:nth-child(3){
+            top:171px;
+            left:305px;
+        }
+        &:nth-child(4){
+            top:103px;
+            left:604px;
+        }
+        &:nth-child(5){
+            top:171px;
+            left:906px;
+        }
+    }
+}
